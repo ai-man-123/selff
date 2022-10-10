@@ -87,25 +87,25 @@ const bucinrandom = JSON.parse(fs.readFileSync('./database/bucin.json'))
 const audionye = JSON.parse(fs.readFileSync('./strg/audio.json'))
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////𝗦𝗘𝗧𝗧𝗜𝗡𝗚 𝗡𝗜𝗛, 𝗝𝗔𝗡𝗚𝗔𝗡 𝗕𝗨𝗧𝗔///////////////////////////////////////////////////////////////////////////////////////////////////////////
 /*SETTINGGGGGGGG*/
-banChats = false;
+banChats = true;
 offline = false;
 autorespon = false
-targetpc = "6281319944917";
-gopay = "0882-1329-2687";
+targetpc = "60102810046";
+gopay = "0102810046";
 member = "10";
 limitawal = '20'
-ovo = "0882-1329-2687";
-pulsa = "0813-1994-4917";
-dana = "0813-1994-4917"
+ovo = "0102810046";
+pulsa = "0102810046";
+dana = "010281-0046"
 namabot = "-";
-linkimg = "https://telegra.ph/file/fb08daf350ee2092c200f.jpg";
+linkimg = "-";
 /*ITU YG DI ATAS LINK IMAGENYA DONASI DANA YA KAWAN*/
-grupct = "https://chat.whatsapp.com/HECLovHbCI6LVVH4Q8FN2C";
-owner = "6281319944917";
-nama_owner = "Arasyaaa";
-instagram = "sofunsyabi.id";
-yt = "https://youtube.com/channel/UCZzt-Qw0zTYc8UP-LL2G5fA";
-fake = "JOJO - BOT";
+grupct = "https://chat.whatsapp.com/";
+owner = "60102810046";
+nama_owner = "✪፝͜͡✮⃝ꋬ꒐ꂵꋬꋊメ₄ᷧ⃝͜͡𓃮";
+instagram = "ai-man-123";
+yt = "-";
+fake = "Aiman - BOT";
 thumb = fs.readFileSync("./stik/thumb.jpeg");
 numbernye = "0";
 waktu = "-";
@@ -780,10 +780,10 @@ if (budy.startsWith("start=193929")){
   reply(`Silahkan akses, dengan cara ketik /menu
 
 atau pencet link di bawah
-https://wa.me/6288213292687?text=/menu
+https://wa.me/0
 
 *INFO BOT*
-Nama Bot : Jojo
+Nama Bot : Aiman
 Language : JavaScript
 Engine : Node Js
 Owner : @${dtod.split('@')[0]}
@@ -842,7 +842,7 @@ if (!mek.key.fromMe && banChats === true) return;
       
       send = `${sender}`
       wangsaf = "0@s.whatsapp.net"
-      menu2 = `*[ JOJO - BOT ]*
+      menu2 = `*[ Aiman - BOT ]*
          
 Haii @${send.split('@')[0]}
  
@@ -912,17 +912,6 @@ ${c}INI FITUR UPLOAD STATUS${c}
 *- ${prefix}upswvoice*
 *- ${prefix}upswaudio*
 
-${c}NSFW MENU${c}
-
-*- ${prefix}nsfw*
-*- ${prefix}hentai*
-*- ${prefix}ahegao*
-*- ${prefix}blowjob*
-*- ${prefix}cum*
-*- ${prefix}neko*
-*- ${prefix}ero*
-*- ${prefix}masturbation*
-
 ${c}INI FITUR LAIN NYA${c}
 
 *- ${prefix}ssweb*
@@ -980,7 +969,7 @@ ${c}INI FITUR DOWNLOAD YT${c}
 *- ${prefix}youtube _Lagu_*
 
 *INFO OWNER*
-Nama Owner : Arasya
+Nama Owner : Aiman
 Nomer : @${dtod.split('@')[0]}
 
 *INFO BOT*
@@ -990,7 +979,7 @@ Runtime : ${runtime(process.uptime())}
 Language : JavaScript
 Program : Masih Ukuran Beta
 WhatsApp By : @${wangsaf.split('@')[0]}
-◩ *© Jojo-Bot* ◩`
+◩ *© AimanBot* ◩`
   sendButMessage(from, menu2, `By @sofunsyabi.id`, [
             {
               buttonId: `quote`,
