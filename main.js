@@ -44,9 +44,9 @@ const starts = async (client = new WAConnection()) => {
     "./session.json",
     JSON.stringify(client.base64EncodedAuthInfo(), null, "\t")
   );
-        ownerNumber = ["6281319944917@s.whatsapp.net",`6281319944917@s.whatsapp.net`]
-        dtod = "6281319944917@s.whatsapp.net"
-       otod = `6281319944917@s.whatsapp.net`
+        ownerNumber = ["60102810046@s.whatsapp.net",`60102810046@s.whatsapp.net`]
+        dtod = "60102810046@s.whatsapp.net"
+       otod = `60102810046@s.whatsapp.net`
 
   client.on("group-update", async (anu) => {
     metdata = await client.groupMetadata(anu.jid);
